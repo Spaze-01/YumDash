@@ -11,7 +11,7 @@ body {
   color: rgb(33, 33, 33);
 }
 
-buttoj {
+button {
   cursor: pointer;
 }
 
@@ -39,10 +39,18 @@ input, button {
   box-shadow: none;
 }
 
+.button-quantity {
+  background: #252525;
+  color: white;
+  width: 19px;
+  height: 19px;
+  border: none;
+  border-radius: 50%;
+}
+
 .limit-text-to-2-lines {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-

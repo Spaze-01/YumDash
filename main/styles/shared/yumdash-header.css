@@ -99,13 +99,12 @@
   margin-right: 12px;
 }
 
-.basket-icon-container {
-  margin-left: 16px;
-  margin-right: 14px;
+.bag-icon-container {
+  margin-right: 18px;
 }
 
-.basket-icon-container svg {
-  width: 34px;
+.bag-icon-container svg {
+  width: 38px;
 }
 
 .cart-quantity {
@@ -116,7 +115,7 @@
 
   position: absolute;
   top: 10px;
-  right: 42px;
+  right: 40px;
   
   height: 18px;
   width: 18px;

@@ -1,5 +1,22 @@
+.main {
+  margin-top: 120px;
+}
+
 .food-menu-main-container {
-  margin-top: 60px;
+  padding: 0 46px;
+}
+
+.fast-food-name {
+  margin-bottom: 24px;
+}
+
+.fast-food-name span {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.subheading {
+  font-size: 14px;
 }
 
 .menu-grid {
@@ -50,16 +67,26 @@
 }
 
 .food-menu-container {
-  padding-top: 40px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-
-  border-right: 1px solid rgb(231, 231, 231);
-  border-bottom: 1px solid rgb(231, 231, 231);
+  width: 200px;
+  background: #FAFAFA;
+  padding: 20px 14px 12px 14px;
+  margin-right: 16px;
+  margin-bottom: 14px;
+  
+  border-radius: 12px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3),
+  0 2px 4px rgba(0, 0, 0, 0.08);
 
   display: flex;
   flex-direction: column;
+}
+
+.restaurant-logo-container img {
+  width: 32px;
+  
+  display: relative;
+  top: 0;
+  left: 0;
 }
 
 .food-image-container {
@@ -68,7 +95,7 @@
   align-items: center;
 
   height: 180px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .food-image {
@@ -77,43 +104,49 @@
 }
 
 .food-name {
-  height: 40px;
-  margin-bottom: 5px;
+  height: 54px;
+  font-size: 14px;
+}
+
+.horizontal-line {
+  height: 0.6px;
+  background: lightgray;
+  margin: 4px 0;
 }
 
 .food-price {
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .food-quantity-container {
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
-.product-spacer {
+.menu-spacer {
   flex: 1;
 }
 
-.added-to-basket {
+.added-to-bag {
   color: rgb(6, 125, 98);
-  font-size: 16px;
+  font-size: 12px;
 
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
-  /* At first, the "Added to cart" message will
-     be invisible. Use JavaScript to change the
-     opacity and make it visible. */
   opacity: 0;
 }
 
-.added-to-basket img {
-  height: 20px;
+.added-to-bag img {
+  height: 14px;
   margin-right: 5px;
 }
 
-.add-to-basket-button {
+.add-to-my-bag-button {
+  font-size: 12px;
+  font-weight: 500;
   width: 100%;
   padding: 8px;
   border-radius: 50px;
