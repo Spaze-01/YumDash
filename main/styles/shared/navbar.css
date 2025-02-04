@@ -3,7 +3,7 @@
   --color-2: #252525;
 }
 
-.yumdash-header {
+.navbar {
   background-color: #fffcad;
   color: white;
   padding-left: 15px;
@@ -16,10 +16,11 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 72px;
+  z-index: 1000;
 }
 
-.yumdash-header-left-section {
+.navbar-left-section {
   width: 100px;
 }
 
@@ -40,7 +41,7 @@
   width: 58px;
 }
 
-.yumdash-header-middle-section {
+.navbar-middle-section {
   flex: 1;
   max-width: 360px;
   display: flex;
@@ -75,28 +76,31 @@
   margin-top: 3px;
 }
 
-.yumdash-header-right-section {
+.navbar-right-section {
   flex: 1;
 }
 
-.nav-bar {
+nav ul {
+  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: end;
 }
 
-.nav-bar a {
+nav li {
+  margin: 0 8px;
+}
+
+nav a {
   color: var(--color-2);
   font-size: 12px;
   font-weight: 800;
-  margin-right: 16px;
 }
 
 .vertical-line {
   width: 1.4px;
   height: 20px;
   background: var(--color-2);
-  margin-right: 12px;
 }
 
 .bag-icon-container {
@@ -115,7 +119,7 @@
 
   position: absolute;
   top: 10px;
-  right: 40px;
+  right: 36px;
   
   height: 18px;
   width: 18px;

@@ -1,0 +1,71 @@
+.top-container {
+  margin-top: 70px;
+  width: 100%;
+  height: 360px;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 45%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.sub-container {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 2;
+}
+
+.heading {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.text {
+  width: 50%;
+  margin-top: 5px;
+  text-align: justify;
+  color: white;
+  font-weight: 400;
+}
+
+.btns-container {
+  margin-top: 28px;
+}
+
+.btns-container .order-btn {
+  background-color: orange;
+}
+
+.btns-container .contact-btn {
+  background-color: black;
+}
+
+.btns-container button {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 32px;
+  padding: 8px 16px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+}

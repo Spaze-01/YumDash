@@ -13,6 +13,31 @@ const wcdoMenu = [{
   image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
   name: '1-pc. Chicken WcDo w/ Rice Small Meal',
   priceCents: 11900
+}, {
+  logo: '/main/images/logo/wcdonalds-logo.png',
+  image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
+  name: '1-pc. Chicken WcDo w/ Rice Small Meal',
+  priceCents: 11900
+}, {
+  logo: '/main/images/logo/wcdonalds-logo.png',
+  image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
+  name: '1-pc. Chicken WcDo w/ Rice Small Meal',
+  priceCents: 11900
+}, {
+  logo: '/main/images/logo/wcdonalds-logo.png',
+  image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
+  name: '1-pc. Chicken WcDo w/ Rice Small Meal',
+  priceCents: 11900
+}, {
+  logo: '/main/images/logo/wcdonalds-logo.png',
+  image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
+  name: '1-pc. Chicken WcDo w/ Rice Small Meal',
+  priceCents: 11900
+}, {
+  logo: '/main/images/logo/wcdonalds-logo.png',
+  image: '/main/images/menu/wcdonalds/chicken/1pc-chicken-with-rice.png',
+  name: '1-pc. Chicken WcDo w/ Rice Small Meal',
+  priceCents: 11900
 }];
 
 let wcdoMenuHTML = '';
@@ -41,7 +66,7 @@ wcdoMenu.forEach((menu) => {
           
           <div class="food-quantity-container">
             <button class="button-quantity">-</button>
-            <span class="food-quantity">2</span>
+            <span>1</span>
             <button class="button-quantity">+</button>
           </div>
           
@@ -56,7 +81,5 @@ wcdoMenu.forEach((menu) => {
         </div>
   `;
 });
-
-console.log(wcdoMenuHTML);
 
 document.querySelector('.js-menu-grid').innerHTML = wcdoMenuHTML;
